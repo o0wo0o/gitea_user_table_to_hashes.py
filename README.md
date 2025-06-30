@@ -21,3 +21,9 @@ python3 gitea_user_to_hash.py path_to_file.json
 ```
 
 Your hashes.txt file will appear.
+
+Next you can do this:
+
+```
+hashcat -m 10900 hashes.txt path_to_wordlist --username --force --show
+```
