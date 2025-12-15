@@ -11,7 +11,7 @@ username:sha256:50000:base64(salt):base64(hash)
 download json with sqlitebrowser 
 
 ```
-sqlitebrowser path_to_db.json
+sqlitebrowser path_to_db
 ```
 ![titanic4](https://github.com/user-attachments/assets/fb4be434-fc1e-4b6a-8a7b-a492f049330b)
 
